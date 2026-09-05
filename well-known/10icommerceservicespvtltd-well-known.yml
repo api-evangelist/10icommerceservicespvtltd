@@ -1,0 +1,161 @@
+generated: '2026-09-05'
+method: probed
+source: https://shopx.in/
+name: 10i Commerce Services (ShopX) — well-known probe
+description: >-
+  Probe of the /.well-known/ surface and the common machine-readable contract paths on
+  shopx.in and www.shopx.in, the only domain 10i Commerce Services Pvt Ltd (ShopX) ever
+  published from. NOTHING WAS SERVED and NO pointer is emitted from this file — it is a
+  record of an absence, not of a presence. Every path answers HTTP 200 with a
+  114-byte GoDaddy parking redirect stub, including a control path that cannot exist, so
+  none of the 200s below is a document.
+host_ownership: parked
+host_ownership_note: >-
+  shopx.in is registered but no longer operated by the company. The apex returns a
+  114-byte HTML stub whose only content is a client-side redirect to /lander, and /lander
+  is GoDaddy's parking page — it declares window._trfd.push({ap:"parking"}) and loads
+  https://img1.wsimg.com/parking-lander/static/js/main.*.js. The domain resolves to
+  15.197.148.33 / 3.33.130.190 (registrar parking), the WHOIS registrar is GoDaddy, and
+  the SPF/DMARC records are GoDaddy parking defaults
+  (v=spf1 include:_spf.google.com ~all; DMARC rua=mailto:dmarc_rua@onsecureserver.net).
+  Every subdomain the company operated while trading — app., bi., bitly., bookingi2.,
+  consumerapp., mobiles. — is NXDOMAIN as of this probe. No response from this host may be
+  attributed to 10i Commerce Services, and none is: no document was captured and no
+  artifact is derived from it.
+hosts:
+- host: shopx.in
+  note: >-
+    Former ShopX marketing site (WordPress while trading). Now a GoDaddy parked lander with
+    a catch-all that answers every path identically. Probed 2026-09-05 with a browser
+    User-Agent.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+    note: >-
+      114-byte parking redirect stub (text/html), not an AgentCard. Rejected per STEP 0b:
+      a 200 whose body is HTML is the dominant false positive on this probe. No a2a/
+      artifact is written.
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+    note: >-
+      Pre-0.3 A2A agent-card location also probed; same 114-byte parking stub, not a
+      document
+- host: www.shopx.in
+  note: >-
+    CNAME of the apex; identical parking behaviour on every path. Probed 2026-09-05.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not an AgentCard
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+    note: 114-byte parking redirect stub (text/html), not a document
+contract_discovery:
+  performed: '2026-09-05'
+  result: no-contract-found
+  note: >-
+    STEP 0b run against the only host this company ever published from. There is no
+    apis[].baseURL and no OpenAPI servers[] host in this repo to probe, and no docs or
+    console host exists — every developer-shaped subdomain is NXDOMAIN. No GraphQL, MCP,
+    OGC or SOAP surface exists to probe either: the company shipped a consumer/retailer
+    mobile app and a WordPress marketing site, never a developer program.
+  probes:
+  - url: https://shopx.in/
+    status: 200
+    note: 114-byte stub redirecting to /lander
+  - url: https://shopx.in/lander
+    status: 200
+    note: >-
+      709-byte GoDaddy parking lander (window._trfd ap:"parking",
+      img1.wsimg.com/parking-lander) — confirms the host is parked, not operated
+  - url: https://shopx.in/openapi.json
+    status: 200
+    note: 114-byte parking stub, not OpenAPI
+  - url: https://shopx.in/swagger.json
+    status: 200
+    note: 114-byte parking stub, not Swagger
+  - url: https://shopx.in/api-docs
+    status: 200
+    note: 114-byte parking stub
+  - url: https://shopx.in/docs
+    status: 200
+    note: 114-byte parking stub
+  - url: https://shopx.in/llms.txt
+    status: 200
+    note: >-
+      65-byte text/plain body reading "User-agent: */Allow: //Disallow-Training:
+      //Sitemap: /sitemap.xml" — this is the parking registrar's robots directive block
+      served at a .txt path, NOT an llms.txt authored by the company. No llms/ artifact is
+      written from it.
+  - url: https://shopx.in/this-path-does-not-exist-xyz9
+    status: 200
+    note: >-
+      CONTROL PATH — returns the same 200 and the same 114 bytes as every probe above,
+      proving the host is a catch-all and that no 200 recorded here is a real hit
+  - url: https://api.shopx.in/
+    status: null
+    note: NXDOMAIN — no A record
+  - url: https://developer.shopx.in/
+    status: null
+    note: NXDOMAIN — no A record
+  - url: https://docs.shopx.in/
+    status: null
+    note: NXDOMAIN — no A record
+archive_check:
+  performed: '2026-09-05'
+  source: https://web.archive.org/cdx/search/cdx?url=shopx.in&matchType=domain
+  status: 200
+  captured_urls: 1052
+  api_paths_found: 0
+  note: >-
+    1,052 distinct archived URLs spanning the domain's entire operating history contain
+    ZERO /api paths and no swagger, openapi, developer-portal, SDK, GraphQL or webhook
+    route. The only JSON routes in the whole archive are WordPress core's own
+    /wp-json/oembed/1.0/embed, Android app-links /.well-known/assetlinks.json on
+    shopx.in and consumerapp.shopx.in, and /.well-known/gpc.json — none of which is an
+    API contract. This corroborates the live probe: ShopX never published a developer
+    program.

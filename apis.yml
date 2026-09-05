@@ -1,23 +1,156 @@
 aid: 10icommerceservicespvtltd
-name: 10icommerceservicespvtltd
-description: '10icommerceservicespvtltd is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+name: 10i Commerce Services Pvt Ltd (ShopX)
+description: >-
+  10i Commerce Services Pvt Ltd, trading as ShopX, was a Bengaluru-based Indian B2B
+  e-commerce enabler founded in 2015 by Amit Sharma and Apoorva Jois. It built an
+  assisted-commerce network for kirana stores and small SME retailers, giving them
+  sourcing, supply-chain, logistics and working-capital credit through a retailer-facing
+  mobile app, and layering consumer digital services on top of the same counter — fast
+  moving consumer goods, mobile phones and accessories, mobile and DTH recharge, bus and
+  flight booking, and utility bill payment. At its peak the company reported a network of
+  more than 170,000 retail partners across 440-plus towns in 24 Indian states, serving
+  over eight million end customers, and it later pivoted toward a Shopify-style storefront
+  platform and a consumer super-app for bulk and retail buying. It raised roughly $56-60
+  million from backers including Infosys co-founder Nandan Nilekani, Fung Strategic
+  Holdings, Rajesh Ranavat and Kewal Nohria. In August 2022 ShopX announced it had ceased
+  operations and filed for insolvency under the Insolvency and Bankruptcy Code, stating the
+  business had become unviable at scale given the low margin profile of B2B retail
+  distribution; a public announcement of the Corporate Insolvency Resolution Process
+  followed on the IBBI register on 14 June 2023 and the registered entity
+  (CIN U72200KA2015PTC079186) remains under CIRP. ShopX never operated a public developer
+  program, API, SDK, webhook surface or machine-readable specification — its retailer and
+  consumer products were mobile apps — and shopx.in has since become a GoDaddy parked
+  domain. This profile is retained as a historical record; there is no API surface to
+  enrich.
 url: https://raw.githubusercontent.com/api-evangelist/10icommerceservicespvtltd/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
-x-tier-reason: harvest
-specificationVersion: '0.20'
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: >-
+  ShopX shipped retailer and consumer mobile apps and a WordPress marketing site. No
+  developer portal, API reference, OpenAPI, SDK or webhook surface appears anywhere in the
+  1,052 archived URLs covering shopx.in's entire operating history, and every
+  developer-shaped subdomain (api., developer., developers., docs., partner.) is NXDOMAIN
+  today.
+x-legal-name: 10i Commerce Services Private Limited
+x-trading-name: ShopX
+x-cin: U72200KA2015PTC079186
+x-founded: '2015'
+x-founders:
+- Amit Sharma
+- Apoorva Jois
+x-headquarters: Bengaluru, Karnataka, India
+x-shutdown-date: '2022-08'
+x-shutdown-note: >-
+  ShopX announced in August 2022 that it had ceased operations and filed an insolvency
+  application under the Insolvency and Bankruptcy Code, saying the business model had not
+  succeeded and it could neither generate operating cash flow nor raise new capital to meet
+  its payment obligations. The IBBI register carries a Corporate Insolvency Resolution
+  Process public announcement dated 14 June 2023 for CIN U72200KA2015PTC079186, together
+  with a claims list and an invitation for expressions of interest for a resolution plan.
+  The entity's status remains Under CIRP; no successor, acquisition or restart has been
+  found.
+x-domain-status: parked
+x-domain-note: >-
+  shopx.in is still registered (GoDaddy, expiry 2027-05-20) but is no longer operated. The
+  apex and every path beneath it return an identical 114-byte HTML stub that client-side
+  redirects to /lander, GoDaddy's parking page. A control path that cannot exist
+  (/this-path-does-not-exist-xyz9) returns the same 200 and the same 114 bytes, so no 200
+  from this host is a document. It is deliberately NOT wired as a Website pointer and no
+  WellKnown, LLMsTxt or AgentCard pointer is emitted from it. See
+  well-known/10icommerceservicespvtltd-well-known.yml for the full probe.
+x-venue-listings:
+- venue: EquityZen
+  url: https://equityzen.com/company/10icommerceservicespvtltd
+  status: 200
+  note: >-
+    Secondary-market share listing; the source of the harvest entry. Recorded here rather
+    than as a common[] Website pointer — a trading-venue listing is a third party's page
+    about the company, not the company's own web presence, and wiring it as Website would
+    credit discoverability for a site that no longer exists (roadmap#56).
+x-name-collision:
+- name: ShopX (tryshopx.com)
+  note: >-
+    An unrelated United States e-commerce integration platform trades as ShopX at
+    tryshopx.com and does publish API documentation. It is NOT this company. Its contracts,
+    SDKs and integrations must never be attributed to 10i Commerce Services Pvt Ltd
+    (STEP 0c ownership check).
+- name: shopxo / shopx-commerce / Shopximity and similar GitHub orgs
+  note: >-
+    A GitHub org search for shopx / 10i-commerce returns only unrelated projects
+    (shopxo, shopx-commerce, Shopximity, shopxlabs, shopxr-lib). None is controlled by
+    10i Commerce Services Pvt Ltd and no GitHubOrganization pointer is emitted.
+- name: npm packages matching "shopx"
+  note: >-
+    npm registry search returns shopx-component-mcp, @arco-themes/react-shopx,
+    @idigi/reaction-plugin-shopx and similar. None declares this company as publisher or
+    homepage; no packages/ artifact is written and no SDKs pointer is emitted.
+specificationVersion: '0.23'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
 - Company
+- Defunct
+- E-Commerce
+- B2B
+- Retail
+- Commerce
+- Supply Chain
+- Distribution
+- Payments
+- India
+tags_raw:
+- Company
+- Defunct
+- E-Commerce
+- B2B
+- Retail
+- Commerce
+- Supply Chain
+- Distribution
+- Payments
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://equityzen.com/company/10icommerceservicespvtltd
+common: []
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    ShopX ceased operations and filed for insolvency in August 2022 and the entity remains
+    under CIRP on the IBBI register, and shopx.in is now a GoDaddy parked domain that
+    answers every path — including a control path that cannot exist — with the same
+    114-byte redirect stub to its parking lander, while 1,052 archived URLs spanning the
+    domain's entire operating history contain zero /api, swagger, openapi, developer-portal
+    or SDK routes and only WordPress core's own /wp-json/oembed.
+  evidence:
+  - url: https://shopx.in/
+    status: 200
+  - url: https://shopx.in/lander
+    status: 200
+  - url: https://shopx.in/openapi.json
+    status: 200
+  - url: https://shopx.in/.well-known/agent-card.json
+    status: 200
+  - url: https://shopx.in/this-path-does-not-exist-xyz9
+    status: 200
+  - url: https://web.archive.org/cdx/search/cdx?url=shopx.in&matchType=domain
+    status: 200
+  - url: https://www.ibbi.gov.in/en/claims/select-claims/18606/U72200KA2015PTC079186
+    status: 200
+  - url: https://equityzen.com/company/10icommerceservicespvtltd
+    status: 200
+  checked: '2026-09-05'
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v3

@@ -64,5 +64,39 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-10icommerceservicespvtltd is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/10icommerceservicespvtltd
+# 10i Commerce Services Pvt Ltd (ShopX)
+
+**Status: defunct.** 10i Commerce Services Pvt Ltd, trading as **ShopX**, was a Bengaluru-based Indian
+B2B e-commerce enabler founded in 2015 by Amit Sharma and Apoorva Jois. It built an assisted-commerce
+network for kirana stores and small SME retailers — sourcing, supply chain, logistics and working-capital
+credit delivered through a retailer mobile app — plus consumer digital services (FMCG, phones and
+accessories, mobile/DTH recharge, bus and flight booking, utility bill payment). At its peak it reported
+170,000+ retail partners across 440+ towns in 24 states, and it raised roughly $56–60M from backers
+including Nandan Nilekani and Fung Strategic Holdings.
+
+ShopX announced in **August 2022** that it had ceased operations and filed for insolvency under the
+Insolvency and Bankruptcy Code. A Corporate Insolvency Resolution Process public announcement dated
+**14 June 2023** appears on the IBBI register for CIN `U72200KA2015PTC079186`, and the entity remains
+under CIRP.
+
+## Is there an API?
+
+**No.** ShopX never operated a public developer program, API, SDK, webhook surface or machine-readable
+specification — its retailer and consumer products were mobile apps fronted by a WordPress marketing site.
+
+- `shopx.in` is now a **GoDaddy parked domain**. Every path, including a control path that cannot exist,
+  returns the same 114-byte redirect stub to the parking lander — so no HTTP 200 from this host is a document.
+- Every developer-shaped subdomain (`api.`, `developer.`, `developers.`, `docs.`, `partner.`) is NXDOMAIN.
+- 1,052 archived URLs covering the domain's entire operating history contain **zero** `/api`, `swagger`,
+  `openapi`, developer-portal or SDK routes — the only JSON routes are WordPress core's own `/wp-json/oembed`.
+
+Full probe: [`well-known/10icommerceservicespvtltd-well-known.yml`](well-known/10icommerceservicespvtltd-well-known.yml)
+
+> **Name collision.** An unrelated US e-commerce integration platform also trades as *ShopX*
+> (`tryshopx.com`) and does publish API documentation. It is **not** this company, and its contracts are
+> deliberately not attributed here.
+
+## Links
+
+- Secondary-market listing (third party, not a company property): https://equityzen.com/company/10icommerceservicespvtltd
+- IBBI insolvency record: https://www.ibbi.gov.in/en/claims/select-claims/18606/U72200KA2015PTC079186
