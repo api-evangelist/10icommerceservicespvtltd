@@ -1,4 +1,4 @@
-# 10icommerceservicespvtltd
+# 10i Commerce Services Pvt Ltd (ShopX)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,39 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-# 10i Commerce Services Pvt Ltd (ShopX)
+10i Commerce Services Pvt Ltd, trading as ShopX, was a Bengaluru-based Indian B2B e-commerce enabler founded in 2015 by Amit Sharma and Apoorva Jois. It built an assisted-commerce network for kirana stores and small SME retailers, giving them sourcing, supply-chain, logistics and working-capital credit through a retailer-facing mobile app, and layering consumer digital services on top of the same counter — fast moving consumer goods, mobile phones and accessories, mobile and DTH recharge, bus and flight booking, and utility bill payment. At its peak the company reported a network of more than 170,000 retail partners across 440-plus towns in 24 Indian states, serving over eight million end customers, and it later pivoted toward a Shopify-style storefront platform and a consumer super-app for bulk and retail buying. It raised roughly $56-60 million from backers including Infosys co-founder Nandan Nilekani, Fung Strategic Holdings, Rajesh Ranavat and Kewal Nohria. In August 2022 ShopX announced it had ceased operations and filed for insolvency under the Insolvency and Bankruptcy Code, stating the business had become unviable at scale given the low margin profile of B2B retail distribution; a public announcement of the Corporate Insolvency Resolution Process followed on the IBBI register on 14 June 2023 and the registered entity (CIN U72200KA2015PTC079186) remains under CIRP. ShopX never operated a public developer program, API, SDK, webhook surface or machine-readable specification — its retailer and consumer products were mobile apps — and shopx.in has since become a GoDaddy parked domain. This profile is retained as a historical record; there is no API surface to enrich.
 
-**Status: defunct.** 10i Commerce Services Pvt Ltd, trading as **ShopX**, was a Bengaluru-based Indian
-B2B e-commerce enabler founded in 2015 by Amit Sharma and Apoorva Jois. It built an assisted-commerce
-network for kirana stores and small SME retailers — sourcing, supply chain, logistics and working-capital
-credit delivered through a retailer mobile app — plus consumer digital services (FMCG, phones and
-accessories, mobile/DTH recharge, bus and flight booking, utility bill payment). At its peak it reported
-170,000+ retail partners across 440+ towns in 24 states, and it raised roughly $56–60M from backers
-including Nandan Nilekani and Fung Strategic Holdings.
+**Areas:** Company · Defunct · E-Commerce · B2B · Retail · Commerce · Supply Chain · Distribution · Payments · India
 
-ShopX announced in **August 2022** that it had ceased operations and filed for insolvency under the
-Insolvency and Bankruptcy Code. A Corporate Insolvency Resolution Process public announcement dated
-**14 June 2023** appears on the IBBI register for CIN `U72200KA2015PTC079186`, and the entity remains
-under CIRP.
+## 10i Commerce Services Pvt Ltd (ShopX) on APIs.io
 
-## Is there an API?
+Everything profiled for 10i Commerce Services Pvt Ltd (ShopX) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/10icommerceservicespvtltd/](https://apis.io/providers/10icommerceservicespvtltd/)** — or go straight to one of the APIs or properties below.
 
-**No.** ShopX never operated a public developer program, API, SDK, webhook surface or machine-readable
-specification — its retailer and consumer products were mobile apps fronted by a WordPress marketing site.
+## API Evangelist rating
 
-- `shopx.in` is now a **GoDaddy parked domain**. Every path, including a control path that cannot exist,
-  returns the same 114-byte redirect stub to the parking lander — so no HTTP 200 from this host is a document.
-- Every developer-shaped subdomain (`api.`, `developer.`, `developers.`, `docs.`, `partner.`) is NXDOMAIN.
-- 1,052 archived URLs covering the domain's entire operating history contain **zero** `/api`, `swagger`,
-  `openapi`, developer-portal or SDK routes — the only JSON routes are WordPress core's own `/wp-json/oembed`.
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-Full probe: [`well-known/10icommerceservicespvtltd-well-known.yml`](well-known/10icommerceservicespvtltd-well-known.yml)
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-> **Name collision.** An unrelated US e-commerce integration platform also trades as *ShopX*
-> (`tryshopx.com`) and does publish API documentation. It is **not** this company, and its contracts are
-> deliberately not attributed here.
+## How this profile is made
 
-## Links
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- Secondary-market listing (third party, not a company property): https://equityzen.com/company/10icommerceservicespvtltd
-- IBBI insolvency record: https://www.ibbi.gov.in/en/claims/select-claims/18606/U72200KA2015PTC079186
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 10i Commerce Services Pvt Ltd (ShopX): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/10icommerceservicespvtltd/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
