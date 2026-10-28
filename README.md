@@ -64,19 +64,19 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
 10i Commerce Services Pvt Ltd, trading as ShopX, was a Bengaluru-based Indian B2B e-commerce enabler founded in 2015 by Amit Sharma and Apoorva Jois. It built an assisted-commerce network for kirana stores and small SME retailers, giving them sourcing, supply-chain, logistics and working-capital credit through a retailer-facing mobile app, and layering consumer digital services on top of the same counter — fast moving consumer goods, mobile phones and accessories, mobile and DTH recharge, bus and flight booking, and utility bill payment. At its peak the company reported a network of more than 170,000 retail partners across 440-plus towns in 24 Indian states, serving over eight million end customers, and it later pivoted toward a Shopify-style storefront platform and a consumer super-app for bulk and retail buying. It raised roughly $56-60 million from backers including Infosys co-founder Nandan Nilekani, Fung Strategic Holdings, Rajesh Ranavat and Kewal Nohria. In August 2022 ShopX announced it had ceased operations and filed for insolvency under the Insolvency and Bankruptcy Code, stating the business had become unviable at scale given the low margin profile of B2B retail distribution; a public announcement of the Corporate Insolvency Resolution Process followed on the IBBI register on 14 June 2023 and the registered entity (CIN U72200KA2015PTC079186) remains under CIRP. ShopX never operated a public developer program, API, SDK, webhook surface or machine-readable specification — its retailer and consumer products were mobile apps — and shopx.in has since become a GoDaddy parked domain. This profile is retained as a historical record; there is no API surface to enrich.
 
 **Areas:** Company · Defunct · E-Commerce · B2B · Retail · Commerce · Supply Chain · Distribution · Payments · India
 
-## 10i Commerce Services Pvt Ltd (ShopX) on APIs.io
+## 10i Commerce Services Pvt Ltd (ShopX) on APIs.io (historical record)
 
 Everything profiled for 10i Commerce Services Pvt Ltd (ShopX) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/10icommerceservicespvtltd/](https://apis.io/providers/10icommerceservicespvtltd/)** — or go straight to one of the APIs or properties below.
 
 ## API Evangelist rating
 
-**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
-
-This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
 ## How this profile is made
 
